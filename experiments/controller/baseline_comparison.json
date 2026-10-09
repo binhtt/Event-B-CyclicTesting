@@ -1,0 +1,10 @@
+{
+  "reachable_core_states": true,
+  "core_transition_targets": true,
+  "generated_tests": true,
+  "suite_cycle_steps": true,
+  "reference_failures": true,
+  "killed_mutants": true,
+  "stable_only_killed_mutants": true,
+  "mutant_results": true
+}

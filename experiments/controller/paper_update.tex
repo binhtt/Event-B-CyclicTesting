@@ -1,0 +1,23 @@
+% Replacement for the implementation-scope statement in the Introduction.
+The current implementation generates executable tests by interpreting a
+supported finite subset of the native Event-B context and machine files.
+Context axioms define the domains and response tables, while machine
+guards and actions determine enabled transitions and expected outputs.
+The model-to-implementation mapping and input-scheduling policies are
+explicitly configured.
+
+% Additional implementation/validation paragraph for the evaluation.
+The revised prototype reads the native Rodin XML components directly,
+without manually encoding the controller transition branches.
+A restricted interpreter evaluates finite parameter bindings, guards,
+and simultaneous assignments. The generated suite retains the original
+1,116 tests, 372 transition targets, and 18,216 reference-controller cycles;
+the reference implementation passes all tests and the suite detects all
+12 faulty variants. Fault-detection counts for each schedule profile
+also match the earlier experiment. The tests are additionally replayed
+on the refined machine, with no output-check failures. On representative
+core transitions, 53,568 combinations of valid within-cycle updates
+satisfy the sampled-input and output-publication checks. These bounded
+checks do not constitute a refinement proof or independent validation
+of the interpreter. Support for arbitrary Event-B syntax remains outside
+the implemented scope.

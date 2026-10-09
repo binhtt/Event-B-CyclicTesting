@@ -1,0 +1,36 @@
+{
+  "M0_AtomicCycle": {
+    "closed": 25,
+    "total": 32,
+    "pending": [
+      "INITIALISATION/inv_remaining/INV",
+      "Cycle/inv_hazard/INV",
+      "Cycle/inv_engine/INV",
+      "Cycle/inv_sync/INV",
+      "Cycle/inv_phaseoff/INV",
+      "Cycle/inv_leftactive/INV",
+      "Cycle/inv_rightactive/INV"
+    ]
+  },
+  "M1_SampledCycle": {
+    "closed": 42,
+    "total": 57,
+    "pending": [
+      "INITIALISATION/inv_remaining/INV",
+      "INITIALISATION/inv_stage/INV",
+      "INITIALISATION/inv_nextRemaining/INV",
+      "Sample/inv_stage/INV",
+      "Sample/VAR",
+      "Decide/inv_stage/INV",
+      "Decide/NAT",
+      "Decide/VAR",
+      "Emit/inv_hazard/INV",
+      "Emit/inv_engine/INV",
+      "Emit/inv_sync/INV",
+      "Emit/inv_phaseoff/INV",
+      "Emit/inv_leftactive/INV",
+      "Emit/inv_rightactive/INV",
+      "Emit/inv_stage/INV"
+    ]
+  }
+}

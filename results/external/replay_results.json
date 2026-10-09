@@ -1,0 +1,142 @@
+[
+  {
+    "benchmark": "m158",
+    "source_sha256": "ea107836b37dd95b411d052c6292c11f23cc3e736215c1f2ddd5b158f5d0c190",
+    "input_codes": [
+      67,
+      56,
+      61,
+      67
+    ],
+    "expected_codes": [
+      87,
+      82,
+      77,
+      87
+    ],
+    "compiler_flags": [
+      "-std=c99",
+      "-O0",
+      "-fwrapv",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=undefined"
+    ],
+    "exit_code": 0,
+    "stdout": "87\n82\n77\n",
+    "stderr": "Invalid input: 67\n"
+  },
+  {
+    "benchmark": "m164",
+    "source_sha256": "3bd12cc9b10381371702077fc107204f9738992493b5344ab0fd53a0a2598732",
+    "input_codes": [
+      65,
+      55
+    ],
+    "expected_codes": [
+      91,
+      85
+    ],
+    "compiler_flags": [
+      "-std=c99",
+      "-O0",
+      "-fwrapv",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=undefined"
+    ],
+    "exit_code": 0,
+    "stdout": "91\n",
+    "stderr": "Invalid input: 55\n"
+  },
+  {
+    "benchmark": "m135",
+    "source_sha256": "437208a185f48ed0e826a14bfac4384ab1a319d684348802fcfa3ab526674c3a",
+    "input_codes": [
+      65,
+      67,
+      63,
+      65
+    ],
+    "expected_codes": [
+      92,
+      83,
+      87,
+      92
+    ],
+    "compiler_flags": [
+      "-std=c99",
+      "-O0",
+      "-fwrapv",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=undefined"
+    ],
+    "exit_code": 0,
+    "stdout": "92\n83\n87\n",
+    "stderr": "Invalid input: 65\n"
+  },
+  {
+    "benchmark": "m55",
+    "source_sha256": "3c5178c1b611623353f5d8a27059eb0bda7b70e0d5864d919139f02d13210c90",
+    "input_codes": [
+      72,
+      56
+    ],
+    "expected_codes": [
+      86,
+      78
+    ],
+    "compiler_flags": [
+      "-std=c99",
+      "-O0",
+      "-fwrapv",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=undefined"
+    ],
+    "exit_code": 0,
+    "stdout": "86\n",
+    "stderr": "Invalid input: 56\n"
+  },
+  {
+    "benchmark": "m54",
+    "source_sha256": "56f9de90bcb0f0e5abe92163dd98c566f94ad50313f26814f57444274c11a54b",
+    "input_codes": [
+      58,
+      62
+    ],
+    "expected_codes": [
+      73,
+      65
+    ],
+    "compiler_flags": [
+      "-std=c99",
+      "-O0",
+      "-fwrapv",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=undefined"
+    ],
+    "exit_code": 0,
+    "stdout": "73\n",
+    "stderr": "Invalid input: 62\n"
+  },
+  {
+    "benchmark": "m76",
+    "source_sha256": "7380551de0e709dc87b53113b29a7032d480d36daa7996b3b642742a842f902e",
+    "input_codes": [
+      77,
+      59
+    ],
+    "expected_codes": [
+      91,
+      93
+    ],
+    "compiler_flags": [
+      "-std=c99",
+      "-O0",
+      "-fwrapv",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=undefined"
+    ],
+    "exit_code": 0,
+    "stdout": "91\n",
+    "stderr": "Invalid input: 59\n"
+  }
+]

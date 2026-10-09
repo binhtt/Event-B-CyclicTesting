@@ -1,0 +1,13 @@
+{
+  "controller_rerun": "passed; counts, generated test records, and witnesses match",
+  "external_rerun": "passed on extracted model/source/mapping files validated against pinned hashes; download preparation not rerun",
+  "external_mutant_counts": {
+    "generated": 59,
+    "killed": 45,
+    "survived": 14
+  },
+  "original_c_replay": "passed on six excluded pairs with UBSan instrumentation",
+  "formal_analysis": "saved statuses and logs checked; formal tools not rerun",
+  "python": "Python 3.12.14",
+  "gcc": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0"
+}
